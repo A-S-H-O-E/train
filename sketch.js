@@ -49,7 +49,7 @@ function draw() {
   }
 }
 if(keyDown(LEFT_ARROW)){
-    Matter.Body.applyForce(boggie5.body,boggie5.body.position,{
+    Matter.Body.applyForce(boggie1.body,boggie1.body.position,{
       x: -3,
       y: 0
     })
