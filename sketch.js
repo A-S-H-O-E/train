@@ -44,7 +44,7 @@ function draw() {
   if(keyDown(RIGHT_ARROW)){
     Matter.Body.applyForce(boggie5.body,boggie5.body.position,{
       x: 1,
-      y: -.1
+      y: -10
     })
   }
 }
