@@ -48,3 +48,10 @@ function draw() {
     })
   }
 }
+if(keyDown(LEFT_ARROW)){
+    Matter.Body.applyForce(boggie5.body,boggie5.body.position,{
+      x: -3,
+      y: 0
+    })
+  }
+}
